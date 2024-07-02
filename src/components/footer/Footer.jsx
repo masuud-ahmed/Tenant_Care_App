@@ -32,25 +32,25 @@ function Footer() {
     <footer className="px-4 md:px-[8%] w-full py-10 bg-[#ECF1F8] flex flex-col items-center justify-center">
       <div className="flex flex-col gap-4 md:grid place-content-center w-full md:grid-cols-3">
         <div className="flex flex-col gap-2">
-          <h1 className="text-xl font-bold text-slate-900 cursor-pointer">
-            TENANT<span className="text-[#00befe]">CARE</span>
+          <h1 className="text-xl font-bold text-[#0D025E] cursor-pointer">
+            Tenant <span className="text-[#4949DB]">Care</span>
           </h1>
           <p className="text-gray-400 break-words">
            Simplifying property management. Manage properties, tenants,
            and work orders effortlessly with our all-in-one solution. Streamline
            operations, enhance tenant communication, and maximize efficiency.</p>
-          <div className="flex gap-3 mt-4 text-[#00befe]">
+          <div className="flex gap-3 mt-4 text-[#4949DB]">
             <Link to='https://www.facebook.com/AmesaSolutions'><FaFacebook /></Link>
             <Link to='https://twitter.com/AmesaSolutions'><FaTwitter /></Link>
             <Link to='https://github.com/TENANTCARE-TEAM'><FaGithub /></Link>
           </div>
         </div>
         <div className="flex flex-col gap-2 md:items-center ">
-          <span className="text-[#222] font-medium ">Quick Links</span>
-          <Link to="/" className=" text-gray-400 hover:text-[#00befe]">Home</Link>
-          <Link to="/about" className=" text-gray-400 hover:text-[#00befe]">About Us</Link>
-          <Link to="/signIn" className=" text-gray-400 hover:text-[#00befe]">Sign In</Link>
-          <Link to="/getStarted" className="text-gray-400 hover:text-[#00befe]">Get Started</Link>
+          <span className="text-[#0D025E] font-medium ">Quick Links</span>
+          <Link to="/" className=" text-[#4949DB] hover:text-[#00befe]">Home</Link>
+          <Link to="/about" className=" text-[#4949DB] hover:text-[#00befe]">About Us</Link>
+          <Link to="/signIn" className=" text-[#4949DB] hover:text-[#00befe]">Sign In</Link>
+          <Link to="/getStarted" className="text-[#4949DB] hover:text-[#00befe]">Get Started</Link>
         </div>
         <div className="hidden md:flex flex-col gap-4">
           <span className="text-[#222] font-medium">Subscribe</span>
@@ -67,7 +67,7 @@ function Footer() {
               onChange={handleChange}
             />
             <button type="submit"
-            className="w-full text-center bg-[#00befe] p-3 px-4 rounded-lg shadow-[0px_4px_0px_0px_#03a4da] hover:shadow-[0px_4px_0px_0px_#0387b3] font-medium text-sm text-white cursor-pointer transition-all hover:bg-sky-500">
+            className="w-full text-center bg-[#4949DB] p-3 px-4 rounded-lg shadow-[0px_4px_0px_0px_#03a4da] hover:shadow-[0px_4px_0px_0px_#0387b3] font-medium text-sm text-white cursor-pointer transition-all hover:bg-[#0D025E]">
               Subscribe
             </button>
           </form>

@@ -16,7 +16,7 @@ function About() {
           <img src={key} className="w-full h-full" alt="" />
         </div>
         <div className="pl-[6%] mt-[8%] flex flex-col w-[100%]">
-          <h3 className="font-bold text-2xl text-[#00befe]">About Us</h3>
+          <h3 className="font-bold text-2xl text-[#4949DB]">About Us</h3>
           <p className="text-gray-500 text-base break-words pr-6">
             <b> Introducing TenantCare, </b>the ultimate property management solution designed to streamline and simplify
             every aspect of managing properties, tenants, and work orders. With TenantCare, property managers can
@@ -33,7 +33,7 @@ function About() {
             TenantCare and elevate your property management process to new heights.
             </span>
           )}
-          <button className='w-[40%] bg-[#00befe] mt-4 p-3 px-4 rounded-lg font-medium text-sm text-white cursor-pointer transition-all hover:bg-sky-500 shadow-[0px_4px_0px_0px_#03a4da] hover:shadow-[0px_4px_0px_0px_#0387b3]'
+          <button className='w-[40%] bg-[#4949DB] mt-4 p-3 px-4 rounded-lg font-medium text-sm text-white cursor-pointer transition-all hover:bg-[#0D025E] shadow-[0px_4px_0px_0px_#03a4da] hover:shadow-[0px_4px_0px_0px_#0387b3]'
             onClick={toggleMoreLess}>
             {!ShowMore ? 'See More' : 'See less'}
           </button>

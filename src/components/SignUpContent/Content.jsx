@@ -61,7 +61,7 @@ function Content() {
         </div>
 
         <div className="md:w-[500px] w-[90%] border-2 items-center bg-white md:p-11 p-6 rounded-lg shadow-xl mt-5">
-          <h2 className="text-center font-medium text-2xl text-[#00befe]">Sign Up Renter</h2>
+          <h2 className="text-center font-medium text-2xl text-[#0D025E]">Sign Up Renter</h2>
           <Formik
             initialValues={initialValues}
             validationSchema={validationSchema}
@@ -132,8 +132,8 @@ function Content() {
 
               <button
                 type="submit"
-                className="w-full mt-4 rounded-[8px] bg-[#00befe] px-12 py-3 text-white 
-              hover:bg-sky-500 text-[18px] shadow-[0px_4px_0px_0px_#03a4da] hover:shadow-[0px_4px_0px_0px_#0387b3]"
+                className="w-full mt-4 rounded-[8px] bg-[#4949DB] px-12 py-3 text-white 
+              hover:bg-[#0D025E] text-[18px] shadow-[0px_4px_0px_0px_#03a4da] hover:shadow-[0px_4px_0px_0px_#0387b3]"
               >
                 Sign Up
               </button>

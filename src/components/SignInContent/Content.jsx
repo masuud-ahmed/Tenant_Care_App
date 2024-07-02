@@ -57,7 +57,7 @@ function Content() {
 
         <div className="w-full md:w-auto flex flex-col gap-col-2">
           <div className="md:w-[500px] w-[100%] items-center bg-white md:p-11 p-6 rounded-lg  mb-2 shadow-2xl border-2 pb-9">
-            <h2 className="text-center font-medium text-2xl text-[#00befe]">Sign in Renter</h2>
+            <h2 className="text-center font-medium text-2xl text-[#4949DB]">Sign in Renter</h2>
             <Formik
               className='p-8'
               initialValues={initialValues}
@@ -101,8 +101,8 @@ function Content() {
 
                 <button
                   type="submit"
-                  className="w-full mt-6 rounded-[8px] bg-[#00befe] px-12 py-3 text-white 
-                hover:bg-sky-500 text-[18px] shadow-[0px_4px_0px_0px_#03a4da] hover:shadow-[0px_4px_0px_0px_#0387b3]"
+                  className="w-full mt-6 rounded-[8px] bg-[#4949DB] px-12 py-3 text-white 
+                hover:bg-[#0D025E] text-[18px] shadow-[0px_4px_0px_0px_#03a4da] hover:shadow-[0px_4px_0px_0px_#0387b3]"
                 >
                   Sign In
                 </button>
@@ -111,7 +111,7 @@ function Content() {
 
             <div className="flex justify-between items-center pt-5">
               <p className="text-sm">Don’t have account?</p>
-              <Link to="/signup" className="text-sm md:text-lg text-[#00befe] font-medium pt-3">
+              <Link to="/signup" className="text-sm md:text-lg text-[#4949DB] font-medium pt-3">
                 Sign Up
               </Link>
             </div>

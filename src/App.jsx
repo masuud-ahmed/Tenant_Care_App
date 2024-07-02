@@ -20,7 +20,7 @@ function App() {
         <Route path='/Owner/signIn' element ={<SignInOwner/>}/>
         <Route path="*" element={<NotFound/>}/>
       
-        <Route to="/Renter/dashboard" element={<PriveRoute/>}>
+        <Route to="/Renter/dashboard" >
           <Route path="/Renter/dashboard" element={<RentDashboard />} />
         </Route>
 

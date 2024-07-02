@@ -2,6 +2,7 @@ import Cookies from "js-cookie";
 import React, { useEffect, useState } from "react";
 import { FiLogOut } from "react-icons/fi";
 import { Link, useNavigate } from "react-router-dom";
+import logo from '../../assets/images/logo-01.png';
 function Nav() {
   const token = Cookies.get("token");
   const navigate = useNavigate();
@@ -23,9 +24,8 @@ function Nav() {
     <div className="fixed z-[6] top-0 right-0 w-[100%] bg-white h-[70px] shadow-lg ">
       <div className="h-[70px] flex items-center text-center justify-between md:px-[15%] ">
         <Link>
-          <h1 className=" flex max-[768px]:ml-6 max-[1141px]:ml-[6rem] md:mr-0 text-xl font-bold text-slate-900 cursor-pointer">
-            TENANT<span className="text-[#00befe]">CARE</span>
-          </h1>
+        <img src={logo} alt="logo" className=" h-80 w-90 flex-auto px-12" />
+          
         </Link>
 
         <div
